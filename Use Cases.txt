@@ -1,0 +1,19 @@
+use cases:
+
+Create Retail Sale
+
+Create Retail sale creates a new sale with input of part number(integer), quantity(integer), and price(decimal). The system returns a generated order number(integer)
+
+Edit Retail Sale
+
+Edit retail sale modifies an old sale with input of part number(integer), quantity(integer), and price(decimal), returning confirmation.
+
+Create Return
+
+Creates an item return for an item on a receipt with input of the part number(integer) and return price
+
+Edit Return
+Lookup Sales by Customer
+Lookup Sales
+Lookup Returns by Customer
+Lookup Returns

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBikeSystem", "eBikeSystem\eBikeSystem.csproj", "{4968E8BC-E743-4804-9AC2-01468B956837}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eBikeWebsite", "http://localhost:53188", "{CEA78B9F-F9F4-4F9E-81BE-D11C82E6865C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{4968e8bc-e743-4804-9ac2-01468b956837}|eBikeSystem.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/eBikeWebsite"
+		Debug.AspNetCompiler.PhysicalPath = "eBikeWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\eBikeWebsite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/eBikeWebsite"
+		Release.AspNetCompiler.PhysicalPath = "eBikeWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\eBikeWebsite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "eBikeWebsite\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4968E8BC-E743-4804-9AC2-01468B956837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4968E8BC-E743-4804-9AC2-01468B956837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4968E8BC-E743-4804-9AC2-01468B956837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4968E8BC-E743-4804-9AC2-01468B956837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA78B9F-F9F4-4F9E-81BE-D11C82E6865C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA78B9F-F9F4-4F9E-81BE-D11C82E6865C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA78B9F-F9F4-4F9E-81BE-D11C82E6865C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA78B9F-F9F4-4F9E-81BE-D11C82E6865C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
